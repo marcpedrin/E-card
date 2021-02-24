@@ -1,0 +1,253 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+/* imports */
+
+
+
+/* universal stylings */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(217, 237, 255);
+}
+
+/* universal stylings */
+
+/* header stylings */
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.logo img {
+  height: 70px;
+  width: 70px;
+  margin: 15px;
+}
+
+#cart {
+  display: none;
+  transition: 2s ease-in-out;
+  top: 14.3%;
+}
+
+ul {
+  list-style: none;
+}
+
+.sub-menu img{
+
+  width: 70px;
+margin-top: 20px;
+  
+}
+
+.sub-menu:hover #cart {
+  display: block;
+  background-color: #ffffff;
+  min-height: 400px;
+  min-width: 300px;
+  position: absolute;
+  transition: 2s ease-in-out;
+  margin-top: -10px;
+}
+
+table {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+tbody tr {
+  display: flex;
+  height: 80px;
+  margin: 5px;
+}
+
+tbody tr td {
+  width: 80px;
+  margin: 5px;
+}
+
+thead{
+  display: flex;
+  width: 100%;
+background: rgb(255, 123, 0);
+}
+
+.cross {
+  width: 10px;
+  
+}
+
+.cross a {
+  text-decoration: none;
+  display: block;
+  background: red;
+  color: white;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+thead tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(255, 0, 0, 0);
+}
+
+#empty-cart {
+  display: block;
+  height: 35px;
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+  background-color: rgb(95, 180, 255);
+  margin: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 35px;
+  border-radius: 18px;
+
+}
+
+nav {
+  background: rgb(254, 255, 217);
+  box-shadow: 0px 0px 30px;
+  display: flex;
+  justify-content: sp;
+}
+
+th {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 45px;
+  
+ 
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+tr {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.sub-menu p {
+  background-color: black;
+  color: rgb(255, 123, 0);
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 50%;
+  /* padding-right: 10px; */
+  /* margin-right: -20px; */
+}
+
+.sub-menu{
+  display: flex;
+   /* width: 50px;
+  height: 50px;  */
+  background-color: rgba(0, 0, 0, 0);
+}
+/* header stylings */
+
+
+/* card stylings */
+
+#list-courses {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  flex-flow: wrap;
+  
+}
+
+.course-card {
+  background-color: rgb(254, 255, 217);
+  padding: 15px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 30px;
+  height: 400px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 1900;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 30px;
+
+}
+
+.course-card img {
+
+  box-shadow: 0px 0px 5px;
+}
+
+.info-card h4 {
+
+  margin-top: 10px;
+}
+
+.info-card p {
+  font-size: 16px;
+}
+
+.info-card .price {
+  text-decoration: line-through;
+}
+
+.info-card .discounted {
+  margin-left: 18px;
+}
+
+.info-card .add-cart {
+  text-decoration: none;
+  color: rgb(254, 255, 217);
+  background-color: rgb(95, 180, 255);
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: -0px;
+  
+}
+
+
+
+
+
+
+
+/* card stylings */
+
